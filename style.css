@@ -1,3 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+html{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #E6EFF6;
+}
+
+.card {
+    margin: auto;
+    margin-top: 163.50px;
+    width: 635px;
+    height: 475px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 3px 2px 11px -1px rgba(0,0,0,0.51);
+}
+
+.top-section {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 45%;
+    padding: 21px;
+    padding-left: 40px;
+}
+
+.top-section h2 {
+    color: #2ab2af;
+    font-weight: 700;
+    font-size: 1.46rem;
+}
+
+.top-section h4 {
+    font-size: 1.1rem;
+    color: #c0df34;
+}
+
+.top-section .content {
+    color: #98a6bd;
+    line-height: 0.5rem;
+    font-size: 0.935rem;
+}
+
+
+.bottom-section {
+    width: 100%;
+    height: 55%;
+    display: flex;
+}
+
+.bottom-left-section {
+    background-color: #2ab2af;
+    width: 50%;
+    height: 100%;
+    padding:20px;
+    padding-left: 40px;
+    color: #e5eff5;
+}
+
+.bottom-left-section h4 {
+    font-size: 1.13rem;
+    line-height: 1rem;
+}
+
+.bottom-left-section .price {
+    display: flex;
+}
+
+.bottom-left-section .price .price-value {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.9rem;
+}
+
+.bottom-left-section .price .price-frequency {
+    font-size: 0.95rem;
+    padding: 7.6px;
+    padding-left: 10.5px;
+    opacity: 0.5;
+}
+
+.bottom-left-section p {
+    font-size: 0.935rem;
+    /* color: red; */
+    position: relative;
+    top: -5px;
+}
+
+button {
+    font-size: 1rem;
+    background-color: #c0df34;
+    width: 238.188px;
+    height: 50px;
+    margin-top: 9.5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 2px 11px -1px rgba(0,0,0,0.51);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #c0de37bc;
+
+}
+
+.bottom-right-section {
+    background-color: #4ABEBD;
+    width: 50%;
+    height: 100%;
+    padding:20px;
+    padding-left: 40px;
+    color: #e5eff5;
+}
+
+.bottom-right-section h4 {
+    font-size: 1.13rem;
+    line-height: 1rem;
+}
+
+.bottom-right-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
