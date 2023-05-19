@@ -104,6 +104,7 @@ button {
     background-color: #c0df34;
     border: none;
     border-radius: 5px;
+    color: #E6EFF6;
     font-size: 1rem;
     height: 50px;
     margin-top: 9.5px;
@@ -132,7 +133,8 @@ button:hover {
 }
 
 .attribution {
-    font-size: 11px;
+    color: black;
+    font-size: 0.8rem;
     text-align: center;
   }
 
